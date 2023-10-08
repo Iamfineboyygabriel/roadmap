@@ -88,7 +88,7 @@ function Menu() {
             {pizzaData.map((pizza) => (
               <Pizza pizzaObject={pizza} key={pizza.name} />
             ))}
-          </ul>
+          </ul>git 
         </>
       ) : (
         <p>We're still working on our menu. Please come back later.</p>
